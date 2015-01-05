@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422389DE1A5A7A56004DBDF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422389DD1A5A7A56004DBDF3 /* AppDelegate.swift */; };
+		422389E01A5A7A56004DBDF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422389DF1A5A7A56004DBDF3 /* ViewController.swift */; };
+		422389E31A5A7A56004DBDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422389E11A5A7A56004DBDF3 /* Main.storyboard */; };
+		422389E51A5A7A56004DBDF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422389E41A5A7A56004DBDF3 /* Images.xcassets */; };
+		422389E81A5A7A56004DBDF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422389E61A5A7A56004DBDF3 /* LaunchScreen.xib */; };
+		422389F41A5A7A56004DBDF3 /* Yik_YakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422389F31A5A7A56004DBDF3 /* Yik_YakTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		422389EE1A5A7A56004DBDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422389D01A5A7A56004DBDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422389D71A5A7A56004DBDF3;
+			remoteInfo = "Yik-Yak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		422389D81A5A7A56004DBDF3 /* Yik-Yak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yik-Yak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		422389DC1A5A7A56004DBDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422389DD1A5A7A56004DBDF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		422389DF1A5A7A56004DBDF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		422389E21A5A7A56004DBDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		422389E41A5A7A56004DBDF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		422389E71A5A7A56004DBDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		422389ED1A5A7A56004DBDF3 /* Yik-YakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yik-YakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		422389F21A5A7A56004DBDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422389F31A5A7A56004DBDF3 /* Yik_YakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yik_YakTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422389D51A5A7A56004DBDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422389EA1A5A7A56004DBDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422389CF1A5A7A56004DBDF3 = {
+			isa = PBXGroup;
+			children = (
+				422389DA1A5A7A56004DBDF3 /* Yik-Yak */,
+				422389F01A5A7A56004DBDF3 /* Yik-YakTests */,
+				422389D91A5A7A56004DBDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		422389D91A5A7A56004DBDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422389D81A5A7A56004DBDF3 /* Yik-Yak.app */,
+				422389ED1A5A7A56004DBDF3 /* Yik-YakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422389DA1A5A7A56004DBDF3 /* Yik-Yak */ = {
+			isa = PBXGroup;
+			children = (
+				422389DD1A5A7A56004DBDF3 /* AppDelegate.swift */,
+				422389DF1A5A7A56004DBDF3 /* ViewController.swift */,
+				422389E11A5A7A56004DBDF3 /* Main.storyboard */,
+				422389E41A5A7A56004DBDF3 /* Images.xcassets */,
+				422389E61A5A7A56004DBDF3 /* LaunchScreen.xib */,
+				422389DB1A5A7A56004DBDF3 /* Supporting Files */,
+			);
+			path = "Yik-Yak";
+			sourceTree = "<group>";
+		};
+		422389DB1A5A7A56004DBDF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				422389DC1A5A7A56004DBDF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		422389F01A5A7A56004DBDF3 /* Yik-YakTests */ = {
+			isa = PBXGroup;
+			children = (
+				422389F31A5A7A56004DBDF3 /* Yik_YakTests.swift */,
+				422389F11A5A7A56004DBDF3 /* Supporting Files */,
+			);
+			path = "Yik-YakTests";
+			sourceTree = "<group>";
+		};
+		422389F11A5A7A56004DBDF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				422389F21A5A7A56004DBDF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422389D71A5A7A56004DBDF3 /* Yik-Yak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422389F71A5A7A56004DBDF3 /* Build configuration list for PBXNativeTarget "Yik-Yak" */;
+			buildPhases = (
+				422389D41A5A7A56004DBDF3 /* Sources */,
+				422389D51A5A7A56004DBDF3 /* Frameworks */,
+				422389D61A5A7A56004DBDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yik-Yak";
+			productName = "Yik-Yak";
+			productReference = 422389D81A5A7A56004DBDF3 /* Yik-Yak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		422389EC1A5A7A56004DBDF3 /* Yik-YakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422389FA1A5A7A56004DBDF3 /* Build configuration list for PBXNativeTarget "Yik-YakTests" */;
+			buildPhases = (
+				422389E91A5A7A56004DBDF3 /* Sources */,
+				422389EA1A5A7A56004DBDF3 /* Frameworks */,
+				422389EB1A5A7A56004DBDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422389EF1A5A7A56004DBDF3 /* PBXTargetDependency */,
+			);
+			name = "Yik-YakTests";
+			productName = "Yik-YakTests";
+			productReference = 422389ED1A5A7A56004DBDF3 /* Yik-YakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422389D01A5A7A56004DBDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Wedgewood Communication";
+				TargetAttributes = {
+					422389D71A5A7A56004DBDF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					422389EC1A5A7A56004DBDF3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 422389D71A5A7A56004DBDF3;
+					};
+				};
+			};
+			buildConfigurationList = 422389D31A5A7A56004DBDF3 /* Build configuration list for PBXProject "Yik-Yak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 422389CF1A5A7A56004DBDF3;
+			productRefGroup = 422389D91A5A7A56004DBDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422389D71A5A7A56004DBDF3 /* Yik-Yak */,
+				422389EC1A5A7A56004DBDF3 /* Yik-YakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422389D61A5A7A56004DBDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422389E31A5A7A56004DBDF3 /* Main.storyboard in Resources */,
+				422389E81A5A7A56004DBDF3 /* LaunchScreen.xib in Resources */,
+				422389E51A5A7A56004DBDF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422389EB1A5A7A56004DBDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422389D41A5A7A56004DBDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422389E01A5A7A56004DBDF3 /* ViewController.swift in Sources */,
+				422389DE1A5A7A56004DBDF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422389E91A5A7A56004DBDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422389F41A5A7A56004DBDF3 /* Yik_YakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		422389EF1A5A7A56004DBDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422389D71A5A7A56004DBDF3 /* Yik-Yak */;
+			targetProxy = 422389EE1A5A7A56004DBDF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		422389E11A5A7A56004DBDF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422389E21A5A7A56004DBDF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		422389E61A5A7A56004DBDF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422389E71A5A7A56004DBDF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422389F51A5A7A56004DBDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		422389F61A5A7A56004DBDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422389F81A5A7A56004DBDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yik-Yak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		422389F91A5A7A56004DBDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yik-Yak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		422389FB1A5A7A56004DBDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yik-YakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yik-Yak.app/Yik-Yak";
+			};
+			name = Debug;
+		};
+		422389FC1A5A7A56004DBDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yik-YakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yik-Yak.app/Yik-Yak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422389D31A5A7A56004DBDF3 /* Build configuration list for PBXProject "Yik-Yak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422389F51A5A7A56004DBDF3 /* Debug */,
+				422389F61A5A7A56004DBDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422389F71A5A7A56004DBDF3 /* Build configuration list for PBXNativeTarget "Yik-Yak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422389F81A5A7A56004DBDF3 /* Debug */,
+				422389F91A5A7A56004DBDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		422389FA1A5A7A56004DBDF3 /* Build configuration list for PBXNativeTarget "Yik-YakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422389FB1A5A7A56004DBDF3 /* Debug */,
+				422389FC1A5A7A56004DBDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422389D01A5A7A56004DBDF3 /* Project object */;
+}
