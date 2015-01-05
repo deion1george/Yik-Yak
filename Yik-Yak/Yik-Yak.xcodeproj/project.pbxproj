@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0943E02F1A5B0C77001BABF2 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943E02E1A5B0C77001BABF2 /* CustomTableViewController.swift */; };
 		422389DE1A5A7A56004DBDF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422389DD1A5A7A56004DBDF3 /* AppDelegate.swift */; };
 		422389E01A5A7A56004DBDF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422389DF1A5A7A56004DBDF3 /* ViewController.swift */; };
 		422389E31A5A7A56004DBDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422389E11A5A7A56004DBDF3 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0943E02E1A5B0C77001BABF2 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		422389D81A5A7A56004DBDF3 /* Yik-Yak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yik-Yak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		422389DC1A5A7A56004DBDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422389DD1A5A7A56004DBDF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				422389E41A5A7A56004DBDF3 /* Images.xcassets */,
 				422389E61A5A7A56004DBDF3 /* LaunchScreen.xib */,
 				422389DB1A5A7A56004DBDF3 /* Supporting Files */,
+				0943E02E1A5B0C77001BABF2 /* CustomTableViewController.swift */,
 			);
 			path = "Yik-Yak";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				422389E01A5A7A56004DBDF3 /* ViewController.swift in Sources */,
+				0943E02F1A5B0C77001BABF2 /* CustomTableViewController.swift in Sources */,
 				422389DE1A5A7A56004DBDF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				422389F91A5A7A56004DBDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422389FA1A5A7A56004DBDF3 /* Build configuration list for PBXNativeTarget "Yik-YakTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				422389FC1A5A7A56004DBDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
